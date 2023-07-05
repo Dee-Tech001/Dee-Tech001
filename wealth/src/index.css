@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Charm:wght@400;700&family=Fira+Mono:wght@400;500&family=Poppins:ital,wght@0,500;1,900&family=Roboto:ital,wght@0,300;1,100;1,300&family=Rubik+Wet+Paint&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{  padding: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: black;
+    scroll-behavior: smooth;
+
+
+    
+}
+span h1{
+    text-align: center;
+}
+ h1, h2{
+    font-family: Belanosima;
+    padding: 3px 10px;
+    font-size: xx-large;
+    color: red;
+   
+    
+} 
+p {
+    font-family: 'Poppins';
+    width: 60rem;
+    font-size:x-large ;
+    color: black;
+    padding: 10px 0px  30px 0px;
+}
+.bg{
+    background-image: url(./assests/people.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    /* background-color: red; */
+}
+/* nav .small-screen{
+    @apply absolute 
+} */
+@layer components{
+nav ul li{
+    @apply text-xl pl-14 md:px-1 py-2 md:ml-5 duration-100 hover:text-emerald-300 font-bold 
+    hover:py-[4px] md:hover:py-0 hover:px-10  md:hover:px-0 hover:ease-linear  
+     text-white border-b-2  md:border-b-0 shadow-md md:shadow-none mb-6 md:mb-0 active:text-emerald-300
+}
+li a{ @apply  w-16
+
+}
+
+
+
+/* .block li {
+    @apply hover:py-[4px] hover:px-[8px] hover:ease-linear mb-4 text-black border-b-2 
+} */
+nav button{
+    @apply  bg-pink-400 text-2xl text-white   rounded-tr-xl rounded-bl-xl  z-50 transition-all
+     ease-in duration-500
+    absolute right-[3rem] top-[1.2rem] justify-center py-[4px] px-[4px] visible 
+    md:invisible opacity-[2] md:opacity-0 
+}
+button{
+    @apply text-white bg-black rounded-xl px-5 py-2
+}
+container div { @apply  shadow-md  rounded-xl bg-white my-10 mx-20 px-5
+
+}
+span p {
+    @apply text-lg h-20 w-[25rem] text-center
+}
+div img {
+    @apply rounded-full h-64 w-64
+}
+}

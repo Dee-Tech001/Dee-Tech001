@@ -1,0 +1,20 @@
+const Sponsor = () => {
+    return ( <div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, exercitationem consequatur. Similique quos veritatis dignissimos voluptatibus necessitatibus totam corporis rerum accusamus asperiores distinctio placeat tenetur nemo quibusdam doloremque, error labore.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, exercitationem consequatur. Similique quos veritatis dignissimos voluptatibus necessitatibus totam corporis rerum accusamus asperiores distinctio placeat tenetur nemo quibusdam doloremque, error labore.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, exercitationem consequatur. Similique quos veritatis dignissimos voluptatibus necessitatibus totam corporis rerum accusamus asperiores distinctio placeat tenetur nemo quibusdam doloremque, error labore.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, exercitationem consequatur. Similique quos veritatis dignissimos voluptatibus necessitatibus totam corporis rerum accusamus asperiores distinctio placeat tenetur nemo quibusdam doloremque, error labore.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, exercitationem consequatur. Similique quos veritatis dignissimos voluptatibus necessitatibus totam corporis rerum accusamus asperiores distinctio placeat tenetur nemo quibusdam doloremque, error labore.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, exercitationem consequatur. Similique quos veritatis dignissimos voluptatibus necessitatibus totam corporis rerum accusamus asperiores distinctio placeat tenetur nemo quibusdam doloremque, error labore.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, exercitationem consequatur. Similique quos veritatis dignissimos voluptatibus necessitatibus totam corporis rerum accusamus asperiores distinctio placeat tenetur nemo quibusdam doloremque, error labore.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, exercitationem consequatur. Similique quos veritatis dignissimos voluptatibus necessitatibus totam corporis rerum accusamus asperiores distinctio placeat tenetur nemo quibusdam doloremque, error labore.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, exercitationem consequatur. Similique quos veritatis dignissimos voluptatibus necessitatibus totam corporis rerum accusamus asperiores distinctio placeat tenetur nemo quibusdam doloremque, error labore.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, exercitationem consequatur. Similique quos veritatis dignissimos voluptatibus necessitatibus totam corporis rerum accusamus asperiores distinctio placeat tenetur nemo quibusdam doloremque, error labore.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, exercitationem consequatur. Similique quos veritatis dignissimos voluptatibus necessitatibus totam corporis rerum accusamus asperiores distinctio placeat tenetur nemo quibusdam doloremque, error labore.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, exercitationem consequatur. Similique quos veritatis dignissimos voluptatibus necessitatibus totam corporis rerum accusamus asperiores distinctio placeat tenetur nemo quibusdam doloremque, error labore.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, exercitationem consequatur. Similique quos veritatis dignissimos voluptatibus necessitatibus totam corporis rerum accusamus asperiores distinctio placeat tenetur nemo quibusdam doloremque, error labore.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt, exercitationem consequatur. Similique quos veritatis dignissimos voluptatibus necessitatibus totam corporis rerum accusamus asperiores distinctio placeat tenetur nemo quibusdam doloremque, error labore.</p>
+    </div> );
+}
+ 
+export default Sponsor;

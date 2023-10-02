@@ -5,76 +5,109 @@
 @tailwind utilities;
 
 
-*{  padding: 0;
-    margin: 0;
-    left: 0;
-    right: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    color: black;
-    scroll-behavior: smooth;
-
-
+@layer base{
+    *{  padding: 0;
+        margin: 0;
+        left: 0;
+        right: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        color: black;
+        font-family: 'Poppins';
+      
     
-}
-span h1{
-    text-align: center;
-}
- h1, h2{
-    font-family: Belanosima;
-    padding: 3px 10px;
-    font-size: xx-large;
-    color: red;
-   
+        
+    }
+    body{
+        background-color: #F8F8FF;
     
-} 
-p {
-    font-family: 'Poppins';
-    width: 60rem;
-    font-size:x-large ;
-    color: black;
-    padding: 10px 0px  30px 0px;
+    }
+    
+    span h1{
+        text-align: center;
+        font-size: 40px;
+       
+    }
+     h1, h2{
+        font-family: Belanosima;
+        padding: 10px 0px;
+        color: red;
+        
+       
+        
+    } 
+    p {
+        font-family: 'Poppins';
+        color: black;
+        padding: 10px 0px  30px 0px;
+        text-align: left;
+    }
+    .bg{
+        background-color: #ffffff;
+        padding: 0 10px;
+        
+        /* background-image: url(/assets/people.jpg); */
+        /* background-position: cover;
+        background-repeat: no-repeat; */
+    
+    }
+
+    .dropdown{
+
+    }
+ 
+  
 }
-.bg{
-    background-image: url(./assests/people.png);
-    object-fit: cover;
-    background-repeat: no-repeat;
-    /* background-color: red; */
-}
-/* nav .small-screen{
-    @apply absolute 
-} */
+ 
+
 @layer components{
-nav ul li{
-    @apply text-xl pl-14 md:px-1 py-2 md:ml-5 duration-100 hover:text-emerald-300 font-bold 
-    hover:py-[4px] md:hover:py-0 hover:px-10  md:hover:px-0 hover:ease-linear  
-     text-white border-b-2  md:border-b-0 shadow-md md:shadow-none mb-6 md:mb-0 active:text-emerald-300
+    /* ul{
+        @apply  
+    } */
+     /* .error{ @apply  */
+
+    /* } */
+ 
+    
+    label{
+        @apply   text-sm font-[Poppins] pb-4 px-10 md:px-20  block
+    }
+    input{
+        @apply    focus:outline-none focus:ring-2 ring-blue-500 ring-inset pl-2 pr-8 py-2 border-blue-500 border rounded-lg
+    }
+  
+
+    .bottom-text {
+        @apply items-center grid
+    }
+
+
+ul li { 
+    @apply pb-3 md:pb-0   hover:px-3 ease-in duration-200 hover:text-red-500 text-blue-700
 }
-li a{ @apply  w-16
-
-}
-
-
-
-/* .block li {
-    @apply hover:py-[4px] hover:px-[8px] hover:ease-linear mb-4 text-black border-b-2 
+/* p{
+    @apply text-sm md:text-lg  text-left tracking-normal 
 } */
-nav button{
-    @apply  bg-pink-400 text-2xl text-white   rounded-tr-xl rounded-bl-xl  z-50 transition-all
-     ease-in duration-500
-    absolute right-[3rem] top-[1.2rem] justify-center py-[4px] px-[4px] visible 
-    md:invisible opacity-[2] md:opacity-0 
+
+.grid span p {
+    @apply   text-sm  tracking-wide leading-8 text-center  px-5
 }
-button{
-    @apply text-white bg-black rounded-xl px-5 py-2
+
+div img {
+    @apply rounded-full h-48 w-48 md:h-64 md:w-64
 }
-container div { @apply  shadow-md  rounded-xl bg-white my-10 mx-20 px-5
+
+
+h1, h2 {
+    @apply text-lg md:text-2xl pt-3 tracking-wide
+}
+span i {
+    @apply text-xl
+}
+.dropdown:hover  .dropdown_content{  @apply  block md:pb-4
 
 }
-span p {
-    @apply text-lg h-20 w-[25rem] text-center
-}
-div img {
-    @apply rounded-full h-64 w-64
+ul li i{
+    @apply text-blue-700
 }
 }
